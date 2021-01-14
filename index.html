@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Digital Clock</title>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="Clock.css" />
+        <script> let is24Set = true; </script>
+    </head>
+    <body>
+        <div class="main">
+            <div id="MyClockDisplay" class="clock"></div>
+            <div class="dayOpt">
+                <span class="optSpan">12<br></span>
+                <span class="optSpan" style="color:red;">24</span>
+            </div>
+            <div id="today" class="today">            
+                <span id="0" class="week">SUN</span>
+                <span id="1" class="week">MON</span>
+                <span id="2" class="week">THU</span>
+                <span id="3" class="week">WED</span>
+                <span id="4" class="week">THU</span>
+                <span id="5" class="week">FRI</span>
+                <span id="6" class="week">SAT</span>
+            </div> 
+        </div>   
+        <script src="Clock.js"></script>
+        <script src="Day.js"></script>
+        <script src="dateOpt.js"></script>
+    </body>
+</html>
